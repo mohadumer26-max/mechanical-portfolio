@@ -1,28 +1,46 @@
 export const projects = [
   {
     id: 1,
-    title: "Gear Assembly Design",
-    software: "SolidWorks • FEA",
+    title: "Shell & Tube Heat Exchanger Analysis",
     description:
-      "Designed a complete gear assembly including CAD modeling, finite element analysis, and manufacturing drawings.",
-    image: "/projects/gear.jpg",
+      "CFD analysis of turbulent flow, velocity distribution, and heat transfer using COMSOL Multiphysics.",
+    image: "/projects/tpms.png",
+    technologies: ["COMSOL", "MATLAB", "SolidWorks"],
   },
 
   {
     id: 2,
-    title: "Shell & Tube Heat Exchanger",
-    software: "SolidWorks",
+    title: "Tube Bundle CAD Design",
     description:
-      "Designed and analyzed a shell and tube heat exchanger as part of a complex engineering project.",
-    image: "/projects/heatexchanger.jpg",
+      "Designed a shell-and-tube heat exchanger tube bundle assembly in SolidWorks with manufacturing-ready geometry.",
+    image: "/projects/heat-exchanger.png",
+    technologies: ["SolidWorks"],
   },
 
   {
     id: 3,
-    title: "Mechanical Component Design",
-    software: "SolidWorks",
+    title: "Velocity Distribution Analysis",
     description:
-      "Created precision CAD models and technical drawings for mechanical components.",
-    image: "/projects/component.jpg",
+      "Post-processing and visualization of CFD velocity contours and flow characteristics.",
+    image: "/projects/velocity.png",
+    technologies: ["COMSOL", "MATLAB"],
+  },
+
+  {
+    id: 4,
+    title: "Temperature Distribution Study",
+    description:
+      "Thermal analysis showing temperature contours and streamline visualization in COMSOL.",
+    image: "/projects/temperature.png",
+    technologies: ["COMSOL"],
+  },
+
+  {
+    id: 5,
+    title: "Mechanical Flange Design",
+    description:
+      "3D CAD model of a reinforced flange designed in SolidWorks with engineering best practices.",
+    image: "/projects/flange.png",
+    technologies: ["SolidWorks"],
   },
 ];
