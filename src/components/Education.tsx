@@ -18,7 +18,7 @@ export default function Education() {
           </p>
 
           <p className="text-slate-400 mt-2">
-            Undergraduate Degree
+            Graduated 
           </p>
 
         </div>

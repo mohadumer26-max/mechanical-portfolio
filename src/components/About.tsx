@@ -13,7 +13,7 @@ export default function About() {
           </h2>
 
           <p className="text-slate-300 text-lg leading-8 mb-6">
-            I am a Mechanical Engineering student with practical experience
+            I am a Mechanical Engineer with practical experience
             in CAD design, CFD analysis, FEA, and product development. My
             passion lies in transforming engineering concepts into
             efficient, manufacturable, and innovative solutions.
